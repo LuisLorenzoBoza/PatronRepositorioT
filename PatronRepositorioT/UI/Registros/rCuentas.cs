@@ -8,13 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PatronRepositorioT
+namespace PatronRepositorioT.UI.Registros
 {
-    public partial class Form1 : Form
+    public partial class rCuentas : Form
     {
-        public Form1()
+        public rCuentas()
         {
             InitializeComponent();
+        }
+
+        private void rCuentas_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GuardarButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
