@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Cuentas]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [Descripcion] VARCHAR(MAX) NULL
+)

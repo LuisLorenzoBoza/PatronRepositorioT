@@ -104,5 +104,8 @@
     <Folder Include="Resources\" />
     <Folder Include="UI\Consultas\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="DAL\Scripts\Script.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
